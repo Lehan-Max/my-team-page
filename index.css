@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-gap: 20px;
+}
+.item1{
+        grid-column: 1/4;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 163px;
+        margin-right: 163px;
+}
+.item2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 163px;
+}
+.item3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 130px;
+}
+.item4{
+    height: 700px;
+}
+.team-intro{
+    width: 283px;
+}
+.crew-photo{
+    width: 238px;
+    height: 365px;
+}
+.crew-member-one{
+    position: relative;
+}
+.crew-one-designation{
+    transform: rotate(90deg);
+    position: absolute;
+    left: 178px;
+    top: 68px;
+}
+.crew-member-two{
+    position: relative;
+}
+.crew-two-designation{
+    transform: rotate(90deg);
+    position: absolute;
+    left: 199px;
+    top: 43px;
+}
+.crew-member-three{
+    position: relative;
+}
+.crew-three-designation{
+    transform: rotate(90deg);
+    position: absolute;
+    left: 193px;
+    top: 48px;
+}
+.crew-member-four{
+    position: relative;
+    margin-top: 44px;
+}
+.crew-four-designation{
+    transform: rotate(90deg);
+    position: absolute;
+    left: 204px;
+    top: 37px;
+}
+.crew-member-five{
+    position: relative;
+}
+.crew-five-designation{
+    transform: rotate(90deg);
+    position: absolute;
+    left: 210px;
+    top: 33px;
+}
+.crew-member-six{
+    position: relative;
+    margin-top: 57px;
+}
+.crew-six-designation{
+    transform: rotate(90deg);
+    position: absolute;
+    left: 205px;
+    top: 36px;
+}
+.item3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 0;
+}
+.item4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 123px;
+    /* margin-right: -29px; */
+}
+
